@@ -1,3 +1,6 @@
+#Name: Benjamin Kurland
+#Email ID: tqf5au
+
 from z3 import *
 s = Solver()
 
