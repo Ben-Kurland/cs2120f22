@@ -62,6 +62,7 @@ for r in range(9):
     if r % 3 == 2:
         print('-' * 9) 
 
+
 from z3 import *
 
 # 9x9 matrix of integer variables
