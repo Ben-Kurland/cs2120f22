@@ -18,7 +18,7 @@ def hw2():
     if (r1 == unsat):
         print("C1 is valid")
     else :
-        print("Here's a counter-example: ", s.model())
+        print("C1 is not valid. Here's a counter-example: ", s.model())
     s.reset()
     # Counter example: I got a pizza or burger for lunch, and i did get a pizza, therefore i did not get a burger.
     # This doesnt make sense because there is no reason why I couldnt have gotten both pizza and burger.
@@ -34,7 +34,7 @@ def hw2():
     if (r2 == unsat):
         print("C2 is valid")
     else :
-        print("Here's a counter-example: ", s.model())
+        print("C2 is not valid. Here's a counter-example: ", s.model())
     s.reset()
     
     
@@ -48,7 +48,7 @@ def hw2():
     if (r3 == unsat):
         print("C3 is valid")
     else :
-        print("Here's a counter-example: ", s.model())
+        print("C3 is not valid. Here's a counter-example: ", s.model())
     s.reset()
     
     
@@ -62,7 +62,7 @@ def hw2():
     if (r4 == unsat):
         print("C4 is valid")
     else :
-        print("Here's a counter-example: ", s.model())
+        print("C4 is not valid. Here's a counter-example: ", s.model())
     s.reset()
     
     
@@ -76,7 +76,7 @@ def hw2():
     if (r5 == unsat):
         print("C5 is valid")
     else :
-        print("Here's a counter-example: ", s.model())
+        print("C5 is not valid. Here's a counter-example: ", s.model())
     s.reset()
     
     
@@ -90,7 +90,7 @@ def hw2():
     if (r6 == unsat):
         print("C6 is valid")
     else :
-        print("Here's a counter-example: ", s.model())
+        print("C6 is not valid. Here's a counter-example: ", s.model())
     s.reset()
     
     
@@ -104,7 +104,7 @@ def hw2():
     if (r7 == unsat):
         print("C7 is valid")
     else :
-        print("Here's a counter-example: ", s.model())
+        print("C7 is not valid. Here's a counter-example: ", s.model())
     s.reset()
     
     
@@ -118,7 +118,7 @@ def hw2():
     if (r8 == unsat):
         print("C8 is valid")
     else :
-        print("Here's a counter-example: ", s.model())
+        print("C8 is not valid. Here's a counter-example: ", s.model())
     s.reset()
     
     
@@ -132,7 +132,7 @@ def hw2():
     if (r9 == unsat):
         print("C9 is valid")
     else :
-        print("Here's a counter-example: ", s.model())
+        print("C9 is not valid. Here's a counter-example: ", s.model())
     s.reset()
     # Counter example: When its raining outside the ground must be wet, and it is not raining, therefore the gound is not wet.
     # This doesnt make sense because the ground could be wet for reasons other than rain.
@@ -148,7 +148,7 @@ def hw2():
     if (r10 == unsat):
         print("C10 is valid")
     else :
-        print("Here's a counter-example: ", s.model())
+        print("C10 is not valid. Here's a counter-example: ", s.model())
     s.reset()
     
     
@@ -162,7 +162,7 @@ def hw2():
     if (r11 == unsat):
         print("C11 is valid")
     else :
-        print("Here's a counter-example: ", s.model())
+        print("C11 is not valid. Here's a counter-example: ", s.model())
     s.reset()
     
     
@@ -176,7 +176,7 @@ def hw2():
     if (r12 == unsat):
         print("C12 is valid")
     else :
-        print("Here's a counter-example: ", s.model())
+        print("C12 is not valid. Here's a counter-example: ", s.model())
     s.reset()
     
     
@@ -190,7 +190,7 @@ def hw2():
     if (r13 == unsat):
         print("C13 is valid")
     else :
-        print("Here's a counter-example: ", s.model())
+        print("C13 is not valid. Here's a counter-example: ", s.model())
     s.reset()
     
     
@@ -204,7 +204,7 @@ def hw2():
     if (r14 == unsat):
         print("C14 is valid")
     else :
-        print("Here's a counter-example: ", s.model())
+        print("C14 is not valid. Here's a counter-example: ", s.model())
     s.reset()
     # Counter example: When its raining outside the ground must be wet, and the ground is wet, therefore it is raining.
     # This doesnt make sense because the ground could be wet for reasons other than rain.
@@ -220,7 +220,7 @@ def hw2():
     if (r15 == unsat):
         print("C15 is valid")
     else :
-        print("Here's a counter-example: ", s.model())
+        print("C15 is not valid. Here's a counter-example: ", s.model())
     s.reset()
     
     
@@ -234,7 +234,7 @@ def hw2():
     if (r16 == unsat):
         print("C16 is valid")
     else :
-        print("Here's a counter-example: ", s.model())
+        print("C16 is not valid. Here's a counter-example: ", s.model())
     s.reset()
     
     
@@ -248,7 +248,7 @@ def hw2():
     if (r17 == unsat):
         print("C17 is valid")
     else :
-        print("Here's a counter-example: ", s.model())
+        print("C17 is not valid. Here's a counter-example: ", s.model())
     s.reset()
     # Counter example: When its raining outside the ground must be wet, therefore when the ground is wet outside it must be raining.
     # This doesnt make sense because the ground could be wet for reasons other than rain.
@@ -264,7 +264,7 @@ def hw2():
     if (r18 == unsat):
         print("C18 is valid")
     else :
-        print("Here's a counter-example: ", s.model())
+        print("C18 is not valid. Here's a counter-example: ", s.model())
     s.reset()
     
     
@@ -278,7 +278,7 @@ def hw2():
     if (r19 == unsat):
         print("C19 is valid")
     else :
-        print("Here's a counter-example: ", s.model())
+        print("C19 is not valid. Here's a counter-example: ", s.model())
     s.reset()
     
     
@@ -292,7 +292,7 @@ def hw2():
     if (r20 == unsat):
         print("C20 is valid")
     else :
-        print("Here's a counter-example: ", s.model())
+        print("C20 is not valid. Here's a counter-example: ", s.model())
     s.reset()
 
 
