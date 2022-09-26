@@ -107,9 +107,9 @@ Do read that proposition carefully, please. You don't need to write a
 long proof. Keep it concise. Identiy the inference rules you use.
 
 Assume that P and Q are arbitrary but specific propositions, and that we are
-given a proof of P ∧ Q. In this context we can deduce a proof of P by applying
-"and elimination left". Then we can apply "or introduction right" to deduce a
-proof of Q ∨ P.
+given a proof of P ∧ Q. In this context we can apply "and elimination left"
+to deduce a proof of P. Then we can deduce a proof of Q ∨ P by applying
+"or introduction right".
 -/
 
 
