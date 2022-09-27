@@ -128,7 +128,7 @@ lines, using line breaks and indentation to make the answer readable.
 --variable Person : Type
 variable Knows : Person → Person → Prop
 def answer : Prop := 
-    (∀ (P S: Person), ∃ (Q R : Person)), 
+    (∀ (P S: Person), ∃ (Q R: Person)), 
       Knows P Q →
       Knows Q R →
       Knows R S
