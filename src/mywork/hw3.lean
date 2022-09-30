@@ -56,11 +56,11 @@ natural, human, terms.
 
 ANSWER HERE:
 Suppose Socrates is an object of some type Person, and that isMortal 
-is a one-place predicate taking any Person, p, as an argument, and yielding
-a proposition, which we understand as asserting that the particular
-person, p, is mortal. Next, we take everyoneIsMortal as a proof 
-that all people are mortal. Finally, we use this proof by applying
-it to the particular person, Socrates, to obtain a proof that Socrates is mortal.
+is a predicate taking any Person, p, as an argument, and yielding
+a proposition asserting that the particular person, p, is mortal. Next,
+take everyoneIsMortal as a proof that all people are mortal. Finally,
+use this proof by applying it to the particular person, Socrates, to
+obtain a proof that Socrates is mortal.
 -/
 
 
